@@ -8,7 +8,7 @@ Repositório destinado ao cursistas da capacitação para validação de ativida
   - Sua especialidade / área ou componente que possui mais afinidade
   - Unidade de Ensino que leciona
   - Componentes que leciona
-  - Link do seu Curriculo a plataforma Lattes
+  - Link da sua página no Git Pages
   - No final, deve incluir um link para a página "index.html"
 
 2) Fique a vontade para formatar usando css e adicionado imagens no projeto na pasta "imagens"

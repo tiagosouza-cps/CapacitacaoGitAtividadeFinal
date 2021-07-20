@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ermogenes Palacio | Controle de Versionamento com Git/GitHub</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bellefair&family=Exo:wght@500&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="shortcut icon"
+      href="data:image/x-icon;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAACjUlEQVQ4T5WTXUjTYRTGn7P9dcvQ3MwRfqyLSClHitMb0RSELowkZIkQzEFUVN6UJcGEwtQby+imWGZNyYLcJLxIoizKqVnENJYX7qJ06oXiNjVx7uvEJq5NiuqF9+ac5/m953DOS/ivw1RtdhUxUxWYS0GkpH/xl11/KyhUeScZ3ADgYMTD+PxXgKbXWUKEu2uLDtWEUQ8QIa+2GQmpmQCo/Y+AMwaOc6a4Wgm4BEDkcS8gdK0Pr0KSlIKiy10IEIpjAN3IVAUFUc2PPRnL7273HwNRyfYW3d9tmDS1hQCTvRqZKgIwCspyBswg0a6xRgOWcgojXmFtFSDAn5AIz/Iigl4PpKlKnVkj6woDjGKlFoQOAPFzJUcxfqElYk6zvECW2QBL82P4dyZuxW0IyvJ6qylAXUjPCgqiOwQqAyAdvdYJ5wE1xBseqDpbkfG+H9a6VswXV2yZg8woM52QD4UCkRZ6oJRtSCX1L40WvcS5gIJbF5E0PYXZw5WYON8UNTncNGnkV7YCEQAzyNp3rtwwWfVK3V6P+FU3VvZmYaSpGwGJdFPPPCRzysvvnyVfDICfFWRDIja7VnbkPD89C5HfC29iMiwtPVhXpIe1KV8/QdXR1FA3O9wWPZlwBWzK/wiFvND+Zh0jzQ4EhXiM6e/Bvf8Qku1foBzsQ9rwAIi5ReefbowBsCk3BxBsUMiw5ACc9nXs3heHaUn2Eav2danI79OHHwGWxX4u1sJhiwWYC06B+QEEMSBP2sy5VsdROZb/hJTJPgHzoU0EUKHzzwxuXyxis/oGGL/KYh4FBWtJM24PiR8JmQPE9FQXmOn+3ccjNqmPgzgXJPoGr+8D1UxMRQtDe1KLuZhYdP4ndKD1Shqb8a4AAAAASUVORK5CYII="
+    />
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: "Bellefair", serif;
+      }
+      body {
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        min-width: 500px;
+        background-image: linear-gradient(135deg, #f5fffa 0%, #c4d8e2 80%);
+      }
+      a:link,
+      a:visited,
+      a:active {
+        color: black;
+        text-decoration: none;
+      }
+      a:hover {
+        text-decoration: underline;
+      }
+      #card {
+        transform: perspective(300px) rotateX(5deg);
+        transition: all 1s ease-in-out;
+        box-shadow: 5px 15px 10px 0 gray;
+        border: 2px solid black;
+        background-color: white;
+      }
+      #card:hover {
+        transform: none;
+        box-shadow: 0px 0px 0px 0 black;
+      }
+      #card > * {
+        padding: 10px;
+        width: 600px;
+        text-align: center;
+      }
+      h1 {
+        font-family: "Exo", sans-serif;
+      }
+      #voltar {
+        text-align: right;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="card">
+      <h1>Ermogenes Palacio</h1>
+      <p>
+        Especialista em Tecnologia e Sistemas de Informação, Especialista em
+        Matemática e Estatística, Especialista em Educação a Distância,
+        Tecnólogo em Processamento de Dados, Licenciado em Informática e
+        Bacharel em Engenharia da Computação.
+      </p>
+      <p>Engenheiro de Software na Prodam/SP.</p>
+      <p>Professor de Programação de Computadores na Etec Adolpho Berezin.</p>
+      <p><a href="https://github.com/ermogenes/">GitHub</a></p>
+      <p id="voltar"><a href="index.html">voltar</a></p>
+    </div>
+  </body>
+</html>

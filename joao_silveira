@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <!-- Meta tags Obrigatórias -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+    <title>João Silveira</title>
+  </head>
+  <body>
+    <div class="container-fluid bg-primary">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12 text-center text-white">
+            <h1>João Silveira - Capacitação GitHub</h1>
+          </div> 
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-6">
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title">Unidade</h5>
+              <p>OP 145 Prof. Fausto Mazzola - Avaré SP</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-6">
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title">Especialidade</h5>
+              <p>Desenvolvimento de sistemas para web utilizando PHP</p>
+            </div>
+          </div>
+        </div>        
+      </div>
+      <div class="row mt-2">
+        <div class="col-sm-6">
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title">Formação Acadêmica</h5>
+              <ul>
+                <li>Tecnólogo em Redes de Computadores</li>
+                <li>Pós-Graduação em Desenvolvimento de Sistemas para Web</li>
+              </ul> 
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-6">
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title">Componentes</h5>
+              <ul>
+                <li>Desenvolvimento de Software I</li>
+                <li>Programação para Web III</li>
+              </ul>
+            </div>
+          </div>
+        </div>        
+      </div>
+      <div class="row mt-3">
+        <div class="col-sm-3">
+          <a href="https://github.com/joaosilveira83" target="new">Git João Silveira</a>
+        </div>
+        <div class="col-sm-3">
+          <a href="index.html">Página Inicial</a>
+        </div>
+      </div>
+    </div>
+
+    </body>
+</html>

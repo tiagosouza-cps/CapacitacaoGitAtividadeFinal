@@ -12,6 +12,7 @@
         html {
             padding: 0;
             margin: 0;
+            box-sizing: border-box;
         }
 
         body {
@@ -24,18 +25,13 @@
 
         header {
             background: #1b998b;
-            padding: 10px 30px;
-            display: flex;
-            justify-content: center;
-        }
-
-        header{
+            padding: 20px 0;
             width: 100%;
-            
+            position: sticky;
+            top: 0;
         }
 
         main {
-            padding: 10px;
             width: 80vw;
             margin: 0 auto;
             font-size: 1.3em;
@@ -60,91 +56,130 @@
         a:hover {
             filter: brightness(1.8);
             text-decoration: underline;
+        }     
+
+        img {
+            max-width: 200px;
+            border-radius: 5px;
+        }
+
+        img:hover{
+            transform: scale(1.3);
+            transition: 3s linear;
+        }
+
+        section{
+            display: flex;
+            justify-content: space-around;
+
         }
 
         footer {
-            padding: 15px 50px;
+            padding: 20px 0;
             background: #1b998b;
+            display: flex;
+            justify-content: center;
+            
         }
 
         footer a {
             color: #FFE6D6;
-            display: flex;
-            justify-content: center;
-            font-size: 1.4em;
+            font-size: 1.6em;
         }
+
+
     </style>
 </head>
 
 <body>
     <header>
+
         <h1 class="name__titulo">Capacitação Controle de Versionamento GitHub</h1>
+
+
     </header>
 
     <main>
-        <article>
-            <h2 class="name__titulo">Wilians Lopes de Souza</h2>
 
-            <h2>Formação Acadêmica</h2>
-            <ul>
-                <li>MBA Gestão de Projetos em Redes Cisco<a
-                        href="https://www.educaedu-brasil.com/centros/faculdade-ibta-uni826" target="_blank">
-                        &ndash;IBTA</a> </li>
-                <li>Bacharel em Sistemas de Informação pela <a href="https://www.ibirapuera.br/" target="_blank">
-                        &ndash; (UNIB) </a> </li>
-                <li>Licenciatura <a href="https://www.unifran.br" target="_blank"> &ndash; Fatec São Bernardo</a> </li>
-            </ul>
+        <h2 class="name__titulo">Wilians Lopes de Souza</h2>
 
-            <h2>Áreas de atuação e interesse</h2>
-            <ul>
-                <li>FrontEnd</li>
-                <li>Redes de computadores</li>
-                <li>Gestão de Projetos</li>
 
-            </ul>
+        <section>
 
-            <h2>Unidade de Ensino</h2>
-            <p><a href="https://www.etecjardimangela.com.br" target="_blank">Etec Jardim Ângela - </a> (Etec Ângela),
-                unidade 221</p>
 
-            <p><a href="https://www.etecccs.com.br" target="_blank">Etec Carolina Carinhato Sampaio</a> (Antiga Etec Zona Sul),
-                unidade 134</p>
+           
 
-            <h2>Componentes curriculares</h2>
-            <ul>
-                <li><a href="https://www.etecjardimangela.com.br" target="_blank">Curso Técnico em Desenvolvimento de
-                        Sistemas</a>
-                    <ul>
-                        <li>Programação Web l</li>
-                        <li>Programação e Algortimos</li>
-                    </ul>
-                </li>
-                <br />
-                <li><a href="https://www.etecccs.com.br" target="_blank">Curso Técnico de Administração</a></li>
+            <div id="cnt_page">
+                <h2>Formação Acadêmica</h2>
                 <ul>
-                    <li>Aplicativos Informatizados</li>
+                    <li>MBA Gestão de Projetos em Redes Cisco<a
+                            href="https://www.educaedu-brasil.com/centros/faculdade-ibta-uni826" target="_blank">
+                            &ndash;IBTA</a> </li>
+                    <li>Bacharel em Sistemas de Informação pela <a href="https://www.ibirapuera.br/" target="_blank">
+                            &ndash; (UNIB) </a> </li>
+                    <li>Licenciatura <a href="https://www.unifran.br" target="_blank"> &ndash; Fatec São Bernardo</a>
+                    </li>
                 </ul>
-                </li>
-                <br />
-                <li><a href="https://www.etecjardimangela.com.br" target="_blank">Curso Técnico em Recursos Humanos</a>
+
+
+
+                <h2>Áreas de atuação e interesse</h2>
+                <ul>
+                    <li>FrontEnd</li>
+                    <li>Redes de computadores</li>
+                    <li>Gestão de Projetos</li>
+
+                </ul>
+
+                <h2>Unidade de Ensino</h2>
+                <p><a href="https://www.etecjardimangela.com.br" target="_blank">Etec Jardim Ângela - </a> (Etec
+                    Ângela),
+                    unidade 221</p>
+
+                <p><a href="https://www.etecccs.com.br" target="_blank">Etec Carolina Carinhato Sampaio</a> (Antiga Etec
+                    Zona Sul),
+                    unidade 134</p>
+
+                <h2>Componentes curriculares</h2>
+                <ul>
+                    <li><a href="https://www.etecjardimangela.com.br" target="_blank">Curso Técnico em Desenvolvimento
+                            de
+                            Sistemas</a>
+                        <ul>
+                            <li>Programação Web l</li>
+                            <li>Programação e Algortimos</li>
+                        </ul>
+                    </li>
+                    <br />
+                    <li><a href="https://www.etecccs.com.br" target="_blank">Curso Técnico de Administração</a></li>
                     <ul>
                         <li>Aplicativos Informatizados</li>
                     </ul>
-                </li>
-                <br />
-                <li><a href="https://www.etecjardimangela.com.br" target="_blank">Curso Técnico em Contabilidade</a>
-                    <ul>
-                        <li>Aplicativos Informatizados</li>
+                    </li>
+                    <br />
+                    <li><a href="https://www.etecjardimangela.com.br" target="_blank">Curso Técnico em Recursos
+                            Humanos</a>
+                        <ul>
+                            <li>Aplicativos Informatizados</li>
+                        </ul>
+                    </li>
+                    <br />
+                    <li><a href="https://www.etecjardimangela.com.br" target="_blank">Curso Técnico em Contabilidade</a>
+                        <ul>
+                            <li>Aplicativos Informatizados</li>
 
-                    </ul>
-                </li>
-            </ul>
+                        </ul>
+                    </li>
+                </ul>
 
-            <h2>Git Pages</h2>
-            <p><a href="https://wilianssouza.github.io/CapacitacaoGit/"
-                    target="_blank">wilianssouza.github.io/CapacitacaoGit</a></p>
-
-        </article>
+                <h2>Git Pages</h2>
+                <p><a href="https://wilianssouza.github.io/CapacitacaoGit/"
+                        target="_blank">wilianssouza.github.io/CapacitacaoGit</a></p>
+            </div>
+            <div id="img__fixed">
+                <img src="imagens/img_wilians.jpg" alt="Foto Wilians" id="img__header">
+            </div>
+        </section>
     </main>
 
     <footer>

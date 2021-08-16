@@ -1,0 +1,19 @@
+
+body {background-color: orange}      
+ 
+a:link {color:pink}
+a:visited {color:blue}
+a:hover {color: yellow}
+a:active {color:green}
+h3 {text-align: center}
+h4 {text-align: center}
+
+  #all{
+            width: 580px;
+            height: 30px;
+            line-height: 30px;
+            
+            margin: 0 auto;
+        }
+.lista{
+text-align:center}

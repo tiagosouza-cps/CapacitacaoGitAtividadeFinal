@@ -1,0 +1,152 @@
+﻿<html>
+<head>
+<script>
+	
+function maior(img)
+{
+  img.height=img.height*2;
+  img.width=img.width*2;
+}
+ 
+function menor(img)
+{
+  img.height=img.height/2;
+  img.width=img.width/2;
+}
+
+function mudar(id) 
+{
+  var display = document.getElementById(id).style.display;
+  var tipo= document.getElementById(id);  
+  document.getElementById(id).style.display = 'block';
+}
+
+function poetexto(num)
+{
+ var div = document.getElementById("texto_tipo");
+ if (num==1)
+ {
+  div.innerHTML = "MOBILE<br>"+
+  "Ferramentas populares para desenvolvimento de apps:<br>"+
+  "PhoneGap(também conhecido como Apache Cordova)<br>"+ 
+  "Appcelerator<br>"+
+  "Rhomobile<br>"+
+  "Xamarin<br>"+
+  "Unity<br>"+
+  "SENCHA<br>"+
+  "Cocos2d<br>";
+ }
+ else if (num==2)
+ {
+  div.innerHTML = "WEB<br>"+
+  "Ferramentas essenciais para o desenvolvimento web:<br>"+
+  "IDEs e Editores de Textos<br>"+
+  "Front-end Frameworks<br>"+
+  "Web App Frameworks<br>"+
+  "Terminal de Linha de Commando<br>"+
+  "Versionador de Código<br>"+
+  "Web Deploy<br>"+
+  "Outras Tecnologias<br>"+
+  "Comunidades de Desenvolvimento Web<br>";
+ }
+ 
+}
+</script>
+<script>
+function btn1()
+{
+  var msg = document.getElementById("texto_tipo");
+  msg.style.color = 'red';
+}
+function btn2()
+{
+  var msg = document.getElementById("texto_tipo");
+  msg.style.color = 'blue';
+}
+function btn3()
+{
+  var msg = document.getElementById("texto_tipo");
+  msg.style.color = 'yellow';
+}
+function btn4()
+{
+  var msg = document.getElementById("texto_tipo");
+  msg.style.color = 'green';
+}
+function btn5()
+{
+  var msg = document.getElementById("texto_tipo");
+  msg.style.color = 'orange';
+}
+
+function body1()
+{
+  var html = document.getElementById("fundo_html");
+  html.style.backgroundColor = 'red';
+}	
+function body2()
+{
+  var html = document.getElementById("fundo_html");
+  html.style.backgroundColor = 'blue';
+}	
+function body3()
+{
+  var html = document.getElementById("fundo_html");
+  html.style.backgroundColor = 'yellow';
+}	
+function body4()
+{
+  var html = document.getElementById("fundo_html");
+  html.style.backgroundColor = 'green';
+}	
+function body5()
+{
+  var html = document.getElementById("fundo_html");
+  html.style.backgroundColor = 'orange';
+}	
+
+</script>
+ 
+<title>PROGRAMAÇÃO</title>
+<meta charset="UTF-8" />
+</head>
+<body id='fundo_html'>
+<center>
+	<h1 id='msg'> Personalize a cor</h1>
+	FONTE:&nbsp;&nbsp;&nbsp;
+	<input type="button" value="VERMELHO" onclick="btn1();" >
+	&nbsp;&nbsp;&nbsp;&nbsp;
+	<input type="button" value="AZUL" onclick="btn2();" >
+	&nbsp;&nbsp;&nbsp;&nbsp;
+	<input type="button" value="AMARELO" onclick="btn3();" >
+	&nbsp;&nbsp;&nbsp;&nbsp;
+	<input type="button" value="VERDE" onclick="btn4();" >
+	&nbsp;&nbsp;&nbsp;&nbsp;
+    <input type="button" value="LARANJA" onclick="btn5();" >
+	&nbsp;&nbsp;&nbsp;&nbsp;
+	<br><br>PÁGINA:&nbsp;&nbsp;
+	<input type="button" value="VERMELHO" onclick="body1();" >
+	&nbsp;&nbsp;&nbsp;&nbsp;
+	<input type="button" value="AZUL" onclick="body2();" >
+	&nbsp;&nbsp;&nbsp;&nbsp;
+	<input type="button" value="AMARELO" onclick="body3();" >
+	&nbsp;&nbsp;&nbsp;&nbsp;
+	<input type="button" value="VERDE" onclick="body4();" >
+	&nbsp;&nbsp;&nbsp;&nbsp;
+	<input type="button" value="LARANJA" onclick="body5();" >
+	&nbsp;&nbsp;&nbsp;&nbsp;
+<h1>PROGRAMAÇÃO<br> clique em um dos links abaixo</h1>
+<table><tr height=110>
+<td><a href="javascript:mudar('texto_tipo')"><img src="imagens/mobile.png" width='66' height='60' onclick="poetexto(1)"
+                       onMouseOver="maior(this)" onMouseOut="menor(this)"></a></td>
+<td><a href="javascript:mudar('texto_tipo')"><img src="imagens/web.png" width='66' height='60' onclick="poetexto(2)"
+                       onMouseOver="maior(this)" onMouseOut="menor(this)"></a></td>
+
+</tr></table>	
+<div id="texto_tipo">.</div>
+<br><br>
+<a href="Adani_Sacilotti.html">Página Principal</a>
+</center>
+</body>
+</html>
+

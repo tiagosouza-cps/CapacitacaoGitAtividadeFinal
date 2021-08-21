@@ -1,0 +1,13 @@
+body{
+		background-color: #0000ff;
+		color: #ffffff;
+		font-family: tahoma;
+		font-size: 25px;
+		}
+	h1,p	{
+		text-decoration-style: wavy;
+		text-align: center;
+		}
+	a	{
+		color: #00ff00;
+		}

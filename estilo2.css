@@ -1,1 +1,11 @@
+*{
+	padding: 0px;
+	margin: 0px;
+	font-family: arial;
+}
 
+#caixa{
+	
+box-shadow:8px -3px 86px -5px rgba(0,0,0,0.66)
+    
+}
